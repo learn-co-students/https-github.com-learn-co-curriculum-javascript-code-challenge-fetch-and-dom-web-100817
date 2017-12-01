@@ -62,10 +62,10 @@ Example Response:
 
 Use the data from the API response to append the information to the DOM. You will need to add:
 
-- the image url
-- the image name
-- the number of likes
-- any comments in an unordered list
+#- the image url
+#- the image name
+#- the number of likes
+#- any comments in an unordered list
 
 Use the example html to guide you as to where this data should go.
 
