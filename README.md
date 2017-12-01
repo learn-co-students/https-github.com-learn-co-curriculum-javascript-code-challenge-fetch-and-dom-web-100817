@@ -69,9 +69,9 @@ Use the data from the API response to append the information to the DOM. You wil
 
 Use the example html to guide you as to where this data should go.
 
-(If you cannot get your fetch request to work correctly you can always use the example response above to append content to the DOM and work with for the subsequent steps)
+(If you cannot get your fetch request to work correctly you can always use the example response above to append content to the DOM and work with for the subsequent steps) X
 
-## Step 2 - Like Feature (Frontend)
+## Step 2 - Like Feature (Frontend)X
 
 The next feature to approach is the functionality to add likes to a picture. First get this working in the browser only without worrying about persistence.
 
@@ -83,7 +83,7 @@ A user can like the same picture multiple times.
 
 This app will use what is called *optimistic rendering*. This means the DOM will be updated before the changes are added to the database.  When a user clicks the 'Like' button we will immediately update the DOM.  Next your job is to make a POST request to persist the new Like in the backend database.
 
-#### API Docs
+#### API DocsX
 #### Endpoint to create a Like
 ```
 POST 'https://randopic.herokuapp.com/likes'
@@ -112,13 +112,13 @@ Since we are using optimistic rendering, you shouldn't have to do anything with 
 
 To test your code you should be able to refresh the page and see the number of likes be the increased number.
 
-## Step 4 - Comment Feature (Frontend)
+## Step 4 - Comment Feature (Frontend) X
 
 The next feature to approach is the functionality to add comments to a picture. First get this working in the browser only without worrying about persistence.
 
 Filling out the input and clicking 'Submit' should append your new comment as an `<li>` to the comments unordered list element. You should also clear out the comment input, so it's an empty field for the next comment to be added.
 
-## Step 5 - Comment Feature (Backend)
+## Step 5 - Comment Feature (Backend) X
 
 As before, after optimistically rendering a comment we need to persist the comment to the database.
 
