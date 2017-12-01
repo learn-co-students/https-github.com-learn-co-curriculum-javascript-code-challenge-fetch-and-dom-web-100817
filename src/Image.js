@@ -1,4 +1,3 @@
-class Image {
+class Image { 
   
-
 }
